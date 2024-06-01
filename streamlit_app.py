@@ -19,14 +19,14 @@ input_data = []
 'test24hours', 'totalTests', 'totalVaccinations',
 'total_tests_per_thousand', 'vaccinated24hours', 'rfh', 'r3h', 'day', 'day_of_week', 'month'
 '''
-input_value_1 = st.number_input("Fully Vaccinated", min_value=9327654.0, step=1)
-input_value_2 = st.number_input('Total Deaths', min_value=4072.0, step=1)
+input_value_1 = st.number_input("Fully Vaccinated", min_value=9327654, step=1)
+input_value_2 = st.number_input('Total Deaths', min_value=4072, step=1)
 input_value_3 = st.number_input("New Vaccinations", min_value=0, step=1)
-input_value_4 = st.number_input("Partially Vaccinated", min_value=4663827.0, step=1)
+input_value_4 = st.number_input("Partially Vaccinated", min_value=4663827, step=1)
 input_value_5 = st.number_input("Stringency Index", min_value=0)
 input_value_6 = st.number_input("Tests in the last 24 hours", min_value=0)
-input_value_7 = st.number_input("Total Tests", min_value=4166833.0, step=1)
-input_value_8 = st.number_input("Total Vaccinations", min_value=9982068.0, step=1)
+input_value_7 = st.number_input("Total Tests", min_value=4166833, step=1)
+input_value_8 = st.number_input("Total Vaccinations", min_value=9982068, step=1)
 input_value_9 = st.number_input("Total Tests per 1000", min_value=0)
 input_value_10 = st.number_input("Vaccinated in the last 24 hours", min_value=0)
 input_value_11 = st.number_input("rfh", min_value=0)
