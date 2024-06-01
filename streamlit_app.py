@@ -35,9 +35,9 @@ input_value_13 = st.number_input("Day (out of 365)", min_value=1, max_value=365,
 input_value_14 = st.number_input("Day of the week", min_value=0, max_value=6, step=1)
 input_value_15 = st.number_input("Month", min_value=1, max_value=12, step=1)
 
-input_data.append(input_value_1, input_value_2, input_value_3, input_value_4, input_value_5, input_value_6, input_value_7,
+input_data.extend([input_value_1, input_value_2, input_value_3, input_value_4, input_value_5, input_value_6, input_value_7,
                   input_value_8, input_value_9, input_value_10, input_value_11, input_value_12, input_value_13, input_value_14,
-                  input_value_15)
+                  input_value_15])
 
 if st.button("Predict"):
     prediction = predict(input_data)
