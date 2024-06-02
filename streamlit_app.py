@@ -38,4 +38,4 @@ input_data.extend([input_value_1, input_value_2, input_value_3, input_value_4, i
 
 if st.button("Predict"):
     prediction = predict(input_data)
-    st.write(f"Prediction: {prediction}")
+    st.write(f"Prediction: {int(prediction)}")
