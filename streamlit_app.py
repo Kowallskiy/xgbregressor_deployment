@@ -39,6 +39,9 @@ input_data.extend([input_value_1, input_value_2, input_value_3, input_value_4, i
                   input_value_8, input_value_9, input_value_10, input_value_11, input_value_12, input_value_13, input_value_14,
                   input_value_15])
 
+st.write(f"Input Data: {input_data}")
+st.write(f"Input Data Shape: {np.array(input_data).reshape(1, -1).shape}")
+
 if st.button("Predict"):
     prediction = predict(input_data)
     st.write(f"Prediction: {prediction}")
